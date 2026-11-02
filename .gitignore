@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+rsconnect/
+*.csv
+.DS_Store
+deploy/
+deploy.R
+.positai
+.httr-oauth
+.quarto

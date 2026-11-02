@@ -1,0 +1,27 @@
+Package: HeatSchedule
+Title: Print Heatmap of Schedule from Shared Calendar Link
+Version: 26.11.1
+Authors@R:
+    person("Andreas Gammelgaard", "Damsbo", email = "andreas@gdamsbo.dk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7559-1154"))
+Description: A Shiny application for generating a heatmap of calendars from shared .ics calendar files (iCal format). Designed for a quick overview of schedule intensity.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    calendar,
+    ggplot2,
+    grDevices,
+    RColorBrewer,
+    shiny,
+    stats,
+    shinyjs,
+    viridisLite
+Suggests:
+    rsconnect,
+    shinylive,
+    here,
+    keyring
+URL: https://github.com/agdamsbo/print_schedule
+BugReports: https://github.com/agdamsbo/print_schedule/issues
+Config/roxygen2/version: 8.1.1

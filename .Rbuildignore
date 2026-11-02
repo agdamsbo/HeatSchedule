@@ -1,0 +1,13 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+<<<<<<< HEAD
+^inst/app/rsconnect$
+^deploy/
+=======
+^deploy$
+>>>>>>> 12099e9 (ignore)
+^\.positai$
+^\.claude$
